@@ -18,7 +18,7 @@ def change():
     button.configure(bg=color[c])
 
 
-button = Button(win, fg="red", text="Click me!", bg=f"{color[c]}", activebackground="gray", command=change)
+button = Button(win, fg="red", text="Color", bg=f"{color[c]}", activebackground="gray", command=change) #Changed from "Click Me!" to produce a more accurate output
 button.place(x=100, y=150)
 text = Label(win, text="<--- Click to change the color of the button", borderwidth=3, relief="ridge")
 text.place(x=200, y=150)
