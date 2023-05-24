@@ -28,8 +28,8 @@ BG = pygame.transform.scale(pygame.image.load(os.path.join("assets", "7.png")).c
 #For scrolling
 bg_height = BG.get_height()
 tiles = math.ceil(HEIGHT/bg_height) + 1
-print(tiles)
 scroll  = 0
+
 class Laser:
     def __init__(self, x, y, img):
         self.x = x
